@@ -1,13 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
 .hero {
-    background-image: url(/OSRS-Quiz/assets/images/OSRSQuizHero.jpg);
+    background-image: url(../images/OSRSQuizHero.jpg);
     height: 800px;
     /* background-size: cover; */
     background-position: center;
     position: relative;
 }
 .HeaderImg {
-    background-image: url(/OSRS-Quiz/assets/images/QuizHeader.png);
+    background-image: url(../images/QuizHeader.png);
     height: 300px;
     background-position: center;
     position: relative;
