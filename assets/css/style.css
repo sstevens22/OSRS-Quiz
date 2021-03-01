@@ -2,7 +2,6 @@
 .hero {
     background-image: url(../images/OSRSQuizHero.jpg);
     height: 800px;
-    /* background-size: cover; */
     background-position: center;
     position: relative;
 }
@@ -59,10 +58,6 @@ button{
 button:hover{
 	background-color: rgb(187, 42, 42);
 }
-
-
-
-
 
 .slide{
   position: absolute;
