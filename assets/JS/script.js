@@ -111,7 +111,7 @@
   
     // Variables
     let timeLeft = document.getElementById("timer");
-    let quizTime = 120;
+    let quizTime = 125;
     const quizContainer = document.getElementById('quiz');
     const resultsContainer = document.getElementById('results');
     const submitButton = document.getElementById('submit');
@@ -224,7 +224,7 @@
   
     function StartDownCounting() {       
         let interval = setInterval( () => { 
-            if (quizTime <= 120 && quizTime >= 11) { 
+            if (quizTime <= 125 && quizTime >= 11) { 
                 timeLeft.style.color = "green"; 
             }
             else if (quizTime <= 10 && quizTime >= 0) {
