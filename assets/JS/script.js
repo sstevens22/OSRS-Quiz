@@ -73,16 +73,18 @@
           // color the answers red
           answerContainers[questionNumber].style.color = 'red';
         }
+        
+       
       });
   
       // show number of correct answers out of total
       resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
-
-      var collectUserName = prompt("Please enter your initials in the box below.");
-      if (collectUserName = Text) {
-       
-        location.href="https://www.facebook.com/home.php";
-    }
+      
+    //  var collectUserName = prompt("Please enter your initials in the box below.");
+    //   if (collectUserName = Text) {
+    //    location.href="https://sstevens22.github.io/OSRS-Quiz/seconondary.html";
+    // }
+      
     }
   
    
