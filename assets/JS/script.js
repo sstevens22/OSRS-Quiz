@@ -77,7 +77,12 @@
   
       // show number of correct answers out of total
       resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
-      
+
+      var collectUserName = prompt("Please enter your initials in the box below.");
+      if (collectUserName = Text) {
+       
+        location.href="https://www.facebook.com/home.php";
+    }
     }
   
    
