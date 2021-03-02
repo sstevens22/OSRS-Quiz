@@ -80,10 +80,10 @@
       // show number of correct answers out of total
       resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
       
-    //  var collectUserName = prompt("Please enter your initials in the box below.");
-    //   if (collectUserName = Text) {
-    //    location.href="https://sstevens22.github.io/OSRS-Quiz/seconondary.html";
-    // }
+     var collectUserName = prompt("Please enter your initials in the box below.");
+      if (collectUserName = Text) {
+       location.href="https://sstevens22.github.io/OSRS-Quiz/seconondary.html";
+      }
       
     }
   
